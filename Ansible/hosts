@@ -1,0 +1,14 @@
+[jenkins-master]
+10.1.1.74
+
+[jenkins-master:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/awsproj.pem
+
+
+[jenkins-slave]
+10.1.1.21
+
+[jenkins-slave:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/awsproj.pem
